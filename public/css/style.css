@@ -1,0 +1,21 @@
+.myheading{
+    color:red;
+    
+    background-color: pink;
+}
+
+/* Custom hover dropdown */
+.absolute {
+    display: none; /* Ensure it's hidden by default */
+    opacity: 0; /* Set initial opacity to 0 for transition */
+    transition: opacity 0.5s ease; /* Adjust the duration as needed */
+    transition-duration: 0.5s;
+}
+
+.relative:hover .absolute {
+    display: block; /* Show the element */
+    opacity: 1; /* Fade in */
+    
+}
+
+
